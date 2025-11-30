@@ -128,6 +128,7 @@ biolit_miner/
 
 ### Environment Variables
 
+You can use any model provider of your choice, for this project I used Anthropic.
 Create a `.env` file with:
 
 ```env
@@ -137,7 +138,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ### API Keys
 
 - **Anthropic API Key**: Required for Claude AI integration
-  - Sign up at [https://www.anthropic.com/](https://www.anthropic.com/)
+  - You can check it out @ [https://www.anthropic.com/](https://www.anthropic.com/)
   - Generate an API key from the console
   - Add to your `.env` file
 
